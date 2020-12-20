@@ -1,0 +1,77 @@
+h1 {
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    line-height: 1em;
+    margin: 30px;
+    margin-top: 35px;
+}
+
+h2 {
+    font-family: "Bebas Neue", Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1em;
+    margin: 10px;
+}
+
+table,
+th,
+td {
+    border: 2px solid #CB997E;
+}
+
+table {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border-collapse: collapse;
+    background-color: #F3EAE2;
+    box-shadow: 0px 2px 10px rgb(0, 0, 0, 0.2)
+}
+
+th {
+    font-size: 30px;
+    font-family: "Work Sans", Helvetica, Sans-serif;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+td {
+    font-family: "Work Sans", Helvetica, Sans-serif;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+th.property {
+    width: 20%;
+}
+
+th.desc, th.values {
+    width: 40%;
+}
+
+.button {
+    text-align: center;
+}
+button {
+    font-size: 20px;
+    font-family: "Bebas Neue", Helvetica;
+    letter-spacing: 1px;
+    padding: .4em;
+    margin: 22px;
+    border: 2px solid black;
+    color: black;
+    background: none;
+    transition: all 0.2s;
+}
+
+button:hover {
+    font-size: 21px;
+    letter-spacing: 1.2px;
+    border: 2px solid #72725A;
+    color: #72725A;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.4)
+}
